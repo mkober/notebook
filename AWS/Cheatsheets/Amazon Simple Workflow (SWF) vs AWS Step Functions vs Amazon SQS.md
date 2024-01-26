@@ -1,0 +1,26 @@
+Clipped from: [https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/](https://tutorialsdojo.com/amazon-simple-workflow-swf-vs-aws-step-functions-vs-amazon-sqs/)
+
+## Amazon Simple Workflow (SWF)
+
+- A web service that makes it easy to coordinate work across distributed application components.
+- In Amazon SWF, tasks represent invocations of logical steps in applications. Tasks are processed by workers which are programs that interact with Amazon SWF to get tasks, process them, and return their results.
+- The coordination of tasks involves managing execution dependencies, scheduling, and concurrency in accordance with the logical flow of the application.
+
+## AWS Step Functions
+
+- A fully managed service that makes it easy to coordinate the components of distributed applications and microservices using visual workflows.
+- You define state machines that describe your workflow as a series of steps, their relationships, and their inputs and outputs. State machines contain a number of states, each of which represents an individual step in a workflow diagram. States can perform work, make choices, pass parameters, initiate parallel execution, manage timeouts, or terminate your workflow with a success or failure.
+
+## Amazon SQS
+
+- A message queue service used by distributed applications to exchange messages through a polling model, and can be used to decouple sending and receiving components.
+- FIFO (first-in-first-out) queues preserve the exact order in which messages are sent and received. Standard queues provide a loose-FIFO capability that attempts to preserve the order of messages.
+
+|   |   |   |
+|---|---|---|
+|Amazon SWF vs AWS Step Functions|AWS Step Functions vs Amazon SQS|Amazon SQS vs AWS SWF|
+|- Consider using AWS Step Functions for all your new applications, since it provides a more productive and agile approach to coordinating application components using visual workflows. If you require external signals (deciders) to intervene in your processes, or you would like to launch child processes that return a result to a parent, then you should consider Amazon SWF.<br>- With Step Functions, you write state machines in declarative JSON. With Amazon SWF, you write a decider program to separate activity steps from decision steps. This provides you complete control over your orchestration logic, but increases the complexity of developing applications. You may write decider programs in the programming language of your choice, or you may use the Flow framework, which is a library for building SWF applications, to use programming constructs that structure asynchronous interactions for you.|- Use Step Functions when you need to coordinate service components in the development of highly scalable and auditable applications. Use SQS when you need a reliable, highly scalable, hosted queue for sending, storing, and receiving messages between services.<br>- Step Functions keeps track of all tasks and events in an application. Amazon SQS requires you to implement your own application-level tracking, especially if your application uses multiple queues.<br>- The Step Functions Console and visibility APIs provide an application-centric view that lets you search for executions, drill down into an execution’s details, and administer executions. Amazon SQS requires implementing such additional functionality.<br>- Step Functions offers several features that facilitate application development, such as passing data between tasks and flexibility in distributing tasks. Amazon SQS requires you to implement some application-level functionality.<br>- You can use Amazon SQS to build basic workflows to coordinate your distributed application, but you get this facility out-of-the-box with Step Functions, alongside other application-level capabilities.|- SWF API actions are task-oriented. SQS API actions are message-oriented.<br>- SWF keeps track of all tasks and events in an application. SQS requires you to implement your own application-level tracking, especially if your application uses multiple queues.<br>- The SWF Console and visibility APIs provide an application-centric view that lets you search for executions, drill down into an execution’s details, and administer executions. SQS requires implementing such additional functionality.<br>- SWF offers several features that facilitate application development, such as passing data between tasks, signaling, and flexibility in distributing tasks. SQS requires you to implement some application-level functionality.<br>- In addition to a core SDK that calls service APIs, SWF provides the Flow Framework with which you can write distributed applications using programming constructs that structure asynchronous interactions.|
+
+## References:
+
+[https://aws.amazon.com/swf/faqs/](https://aws.amazon.com/swf/faqs/) [https://aws.amazon.com/step-functions/faqs/](https://aws.amazon.com/step-functions/faqs/) [https://aws.amazon.com/sqs/faqs/](https://aws.amazon.com/sqs/faqs/)

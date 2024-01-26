@@ -1,0 +1,3 @@
+A bastion host is a special purpose computer on a network specifically designed and configured to withstand attacks. If you have a bastion host in AWS, it is basically just an EC2 instance. It should be in a public subnet with either a public or Elastic IP address with sufficient RDP or SSH access defined in the security group. Users log on to the bastion host via SSH or RDP and then use that session to manage other hosts in the private subnets.
+
+![](https://media.tutorialsdojo.com/2019-02-13_01-07-49-c56d7bdad437af14a0a3b8a17c9dcfd2.png)

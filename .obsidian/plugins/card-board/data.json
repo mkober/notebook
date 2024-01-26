@@ -1,0 +1,62 @@
+{
+  "version": "0.10.0",
+  "data": {
+    "boardConfigs": [
+      {
+        "tag": "tagBoardConfig",
+        "data": {
+          "columns": [
+            {
+              "tag": "today",
+              "displayTitle": "Today"
+            },
+            {
+              "tag": "devfriday",
+              "displayTitle": "Dev Friday"
+            },
+            {
+              "tag": "fancyrabbit",
+              "displayTitle": "Fancy Rabbit"
+            },
+            {
+              "tag": "parkerwestbooks",
+              "displayTitle": "Parker West Books"
+            },
+            {
+              "tag": "nccart",
+              "displayTitle": "NCC Art"
+            }
+          ],
+          "showColumnTags": true,
+          "completedCount": 10,
+          "filters": [],
+          "filterPolarity": "Allow",
+          "filterScope": "Both",
+          "showFilteredTags": true,
+          "includeOthers": false,
+          "includeUntagged": false,
+          "title": "Cloud Build",
+          "collapsedColumns": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    ],
+    "globalSettings": {
+      "taskCompletionFormat": "ObsidianCardBoard",
+      "columnNames": {
+        "today": "",
+        "tomorrow": "",
+        "future": "",
+        "undated": "",
+        "others": "",
+        "untagged": "",
+        "completed": ""
+      },
+      "ignoreFileNameDates": false
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Lift-and-shift (also known as “rehost”) is a common approach for migrating to AWS, whereby you move a workload from on-premises with little or no modification. In a large legacy migration scenario where the organization is looking to scale its migration quickly to meet a business case, we find that the majority of applications are rehosted when moving to the cloud to minimize risk and speed up time to production.
+
+![](https://media.tutorialsdojo.com/migrating-cms-on-premise-workload-aws-mgn-figure-1.jpg)
+
+AWS Application Migration Service (MGN) is a highly automated lift-and-shift solution that works by replicating your on-premises (physical or virtual) and/or cloud servers (referred to as “source servers”) into your AWS account. When you’re ready, AWS MGN automatically converts and launches your servers on AWS so you can quickly benefit from the cost savings, productivity, resilience, and agility of the cloud. Once your applications are running on AWS, you can leverage AWS services and capabilities to quickly and easily re-platform or refactor those applications.

@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "d9eb5dc99e28c604",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9089f6763d13291",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9e7698064aac8ab",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14fac2f34db5a00a",
+    "type": "split",
+    "children": [
+      {
+        "id": "288abcab702f437a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89345672f56b51f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "490e8a62bd8920b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#DigitalCloudTraining",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad2cf78cebc25259",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26e6f5b6931fd3a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "132d8e07a3d6b1f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e236e9a0ea6fbf5a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a682c00dd74ed730",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf9fef12d8c04a96",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7c6ac12db023a515",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d9e7698064aac8ab",
+  "lastOpenFiles": [
+    "Articles/Amazon’s PR FAQ A Practical Guide.md",
+    "Journal/2023-10-25.md",
+    "Journal",
+    "AWS/Notes/SAA-C03 Study Notes.md",
+    "AWS/Notes",
+    "AWS/Labs/CloudWatch Lab from Digital Cloud.md",
+    "AWS/Cheatsheets/Amazon Athena Cheat Sheet.md",
+    "AWS/Cheatsheets/Amazon API Gateway Cheat Sheet.md",
+    "Work/Career Notes.md",
+    "Programming/Linux Notes.md",
+    "Personal/Expenses.md",
+    "Programming/Windows.md",
+    "AWS/Labs",
+    "Programming/Vim Config Notes.md",
+    "Programming/Unreal Engine.md",
+    "Programming/Typescript.md",
+    "Programming/Tmux Notes.md",
+    "Work/Product Ideas.md",
+    "Work/Noweb Notes.md",
+    "Work/NCC Notes.md",
+    "Personal",
+    "Personal/Life Goals.md",
+    "Programming/Git Notes.md",
+    "Programming/Docker Notes.md",
+    "Programming/Bash Notes.md",
+    "Programming/C++ Notes.md",
+    "Programming",
+    "Work",
+    "AWS/Cheatsheets/AWS Elastic Beanstalk Cheat Sheet.md",
+    "Linux",
+    "AWS/Cheatsheets/AWS Directory Services Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS Elastic Load Balancing (ELB) Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS Application Integration Services Cheat Sheet.md",
+    "Untitled.canvas",
+    "Images/Pasted image 20231024165328.png",
+    "Images",
+    "Images/Pasted image 20231024164827.png",
+    "Images/Pasted image 20231024164442.png",
+    "Images/Pasted image 20231024164252.png",
+    "Images/Pasted image 20231024164128.png",
+    "Articles",
+    "Games"
+  ]
+}
