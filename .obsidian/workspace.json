@@ -11,24 +11,15 @@
             "id": "400beb14dc47ee47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "80c08ad2809c274a",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Libraries/AWS Lambda Web Adapter.md",
+                "file": "Articles/Top 10 web hacking techniques of 2023 PortSwigger Research.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 215.5
   },
   "right": {
     "id": "26e6f5b6931fd3a6",
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Libraries/AWS Lambda Web Adapter.md",
+                "file": "Articles/Top 10 web hacking techniques of 2023 PortSwigger Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Libraries/AWS Lambda Web Adapter.md",
+                "file": "Articles/Top 10 web hacking techniques of 2023 PortSwigger Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/Libraries/AWS Lambda Web Adapter.md"
+                "file": "Articles/Top 10 web hacking techniques of 2023 PortSwigger Research.md"
               }
             }
           },
@@ -151,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,38 +158,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80c08ad2809c274a",
+  "active": "400beb14dc47ee47",
   "lastOpenFiles": [
+    "Articles/How I Hacked Microsoft Teams and got $150,000 in Pwn2Own.md",
+    "Articles/Top 10 web hacking techniques of 2023 PortSwigger Research.md",
+    "Articles/Why I don't miss React A story about using the Platform.md",
+    "Articles/Moving away from CDK.md",
+    "Articles/Processing Background Jobs on AWS Lambda vs ECS vs ECS Fargate.md",
+    "Articles/9 Open-Source Repos That Will Make Your SaaS Gold.md",
+    "Articles/Making Environment Variables Effortless to Use in AWS CDK Stacks.md",
     "Articles/AWS Solution Architect Associate Exam, My Notes and Tips.md",
-    "Financial/Business.md",
-    "Financial/Credit Cards.md",
-    "Financial/Education.md",
-    "Financial/Utilities.md",
-    "Financial/Subscriptions.md",
-    "Work/Product Ideas.md",
-    "Work/Career Notes.md",
-    "Financial/Loans.md",
     "Articles/Disable Suspend and Hibernation Modes In Linux.md",
-    "Programming/Linux Notes.md",
-    "Programming/Bash Notes.md",
-    "Personal/Reading List.md",
-    "Excalidraw/Drawing 2023-10-25 07.29.45.excalidraw.md",
-    "Personal/Life Goals.md",
-    "Personal/Expenses.md",
-    "Financial/Year Expenses.md",
-    "Financial",
-    "Books/Programming.md",
-    "AWS/Libraries/AWS Lambda Web Adapter.md",
-    "AWS/Notes/Amazon Kinesis Data Streams Shards & Partitions.md",
-    "AWS/Libraries",
-    "AWS/Notes/Auto Scaling Group.md",
-    "Untitled.canvas",
+    "Articles/How To Find A Developer Job In 2023 (With Little Or No Experience).md",
+    "Articles/Working Backwards Press Release Template and Example.md",
+    "Articles/Running WordPress on Amazon ECS on AWS Fargate with Amazon EFS.md",
+    "Articles/Amazon’s PR FAQ A Practical Guide.md",
     "Articles/Serving Dynamic Web Pages using Python and AWS Lambda.md",
+    "AWS/Cheatsheets/Wavelength Cheat Sheet.md",
+    "AWS/Cheatsheets/Step Scaling vs Simple Scaling Policies vs Target Tracking Policies in Amazon EC2.md",
+    "AWS/Cheatsheets/Untitled.md",
+    "AWS/Cheatsheets/Gateway Load Balancer vs ALB vs NLB Cheat Sheet.md",
+    "AWS/Cheatsheets/Batch Cheat Sheet.md",
+    "AWS/Cheatsheets/ECR Cheat Sheet.md",
+    "AWS/Cheatsheets/EFA Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS Migration Services Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS KMS Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS Global Infrastructure Cheat Sheet.md",
+    "AWS/Cheatsheets/AWS Global Accelerator vs Amazon CloudFront.md",
+    "AWS/Cheatsheets/AWS Global Accelerator Cheat Sheet.md",
+    "Financial",
+    "AWS/Libraries",
+    "Untitled.canvas",
     "Images/Pasted image 20231106194613.png",
-    "Work/Noweb Notes.md",
-    "AWS/Notes/S3 Server-side Encryption.md",
-    "AWS/Services/AWS Cloudwatch.md",
-    "AWS/Services/AWS Lambda.md",
     "Pasted image 20231106194613.png",
     "AWS/Services",
     "AWS/Well-Architected",
