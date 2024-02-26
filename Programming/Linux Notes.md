@@ -62,3 +62,9 @@ font_name = "sans 20"
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 *** sudo apt update
 *** sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+#### Permanently hide the Ubuntu Dock from your desktop
+gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide false
+
